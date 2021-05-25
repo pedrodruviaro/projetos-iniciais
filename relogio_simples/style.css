@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(77, 77, 77);
+    color: #ffffff;
+    font-family: 'Roboto Mono', monospace;
+}
+
+main {
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*-------------------------------------*/
+.relogio {
+    border-radius: 10px;
+    font-size: 6rem;
+    font-weight: 400;
+    padding: .5rem 1.5rem;
+    transition: all 400ms ease-in-out;
+}
+
+.borda-verde {
+    border: 3px solid #A5E65A;
+}
+.borda-azul {
+    border: 3px solid #33D9CB;
+}
