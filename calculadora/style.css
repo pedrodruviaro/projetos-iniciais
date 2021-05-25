@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(97, 97, 97);
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Balsamiq Sans', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*--------------------GERAL--------------------------*/
+.calculadora { 
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+
+    width: 250px;
+}
+.campo {
+    background: none;
+    border: none;
+    outline: none;
+
+    border: 1px solid rgba(0, 0, 0, 0.562);
+    border-radius: 5px;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: .5rem;
+    text-align: center;
+    width: 84%;
+}
+
+.tecla {
+    background-color: rgb(160, 160, 160);
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.75rem;
+    height: 50px;
+    padding: .25rem;
+    margin: .5rem;
+    text-align: center;
+    width: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tecla:hover {
+    background-color: rgb(19, 100, 19);
+}
+
+/*-------------------TECLAS-----------------------*/
+.clear {
+    background-color: rgb(182, 42, 42);
+    width: 86%;
+}
+
+.clear:hover{
+    background: red;
+}
+
+.igual {
+    background-color: rgb(35, 129, 35);
+}
+
+.igual:hover {
+    background-color: rgb(60, 180, 60);
+}
+
+.divisao,
+.multiplicacao,
+.soma,
+.subtracao {
+    background-color: rgb(61, 61, 61);
+}
+
+.divisao:hover,
+.multiplicacao:hover,
+.soma:hover,
+.subtracao:hover {
+    background-color: black;
+}
